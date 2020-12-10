@@ -1,6 +1,12 @@
 # Scaled Autonomy (AuE8930)
 This repository contains final project done in the course, AuE8930 - Scaled Autonomy during the Fall Semester 2020 at Clemson Univerity - International Center for Automotive Research.
 
+## Team Members
+1. Prajval Vaskar
+2. Ajith Kumar Challa
+3. Shaurya Panthri
+4. Kexuan Zhai
+
 ## Installation Steps and training procedure.
 
 1. Clone the repository and build the package. The repository contains the required dependancy so there should not be any error while building.
@@ -18,3 +24,4 @@ This repository contains final project done in the course, AuE8930 - Scaled Auto
 In case of package dependacny issue, use the following links to clone the required packages.
 1. [Yujin_ocs](https://github.com/yujinrobot/yujin_ocs/tree/devel/yocs_cmd_vel_mux)
 2. [ecl_exeptions](https://github.com/stonier/ecl_core/tree/devel/ecl_exceptions)
+3. [Yujin_msgs](https://github.com/yujinrobot/yocs_msgs)
