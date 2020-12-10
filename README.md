@@ -21,7 +21,7 @@ This repository contains final project done in the course, AuE8930 - Scaled Auto
 10. After training the network, weights will be saved in weights folder if all paths and othe steps are done carefully.
 11. To deploy the model, launch the simulator and run the python sctipt 'drive_model_vel_CNN.py'
  
-In case of package dependacny issue, use the following links to clone the required packages.
+In case of package dependency issue, use the following links to clone the required packages.
 1. [Yujin_ocs](https://github.com/yujinrobot/yujin_ocs/tree/devel/yocs_cmd_vel_mux)
 2. [ecl_exeptions](https://github.com/stonier/ecl_core/tree/devel/ecl_exceptions)
 3. [Yujin_msgs](https://github.com/yujinrobot/yocs_msgs)
