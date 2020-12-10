@@ -1,0 +1,8 @@
+prefix=/home/prajval/end_to_end_learning/devel
+
+Name: camera_cal
+Description: Description of camera_cal
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: cv_bridge geometry_msgs image_transport roscpp rospy sensor_msgs std_msgs

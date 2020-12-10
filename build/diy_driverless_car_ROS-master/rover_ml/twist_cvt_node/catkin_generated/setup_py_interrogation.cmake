@@ -1,0 +1,7 @@
+set(twist_cvt_node_SETUP_PY_SETUP_MODULE "distutils.core")
+set(twist_cvt_node_SETUP_PY_VERSION "0.0.0")
+set(twist_cvt_node_SETUP_PY_SCRIPTS "")
+set(twist_cvt_node_SETUP_PY_PACKAGES "lane_twist_cvt_node")
+set(twist_cvt_node_SETUP_PY_PACKAGE_DIRS "src/lane_twist_cvt_node")
+set(twist_cvt_node_SETUP_PY_MODULES "")
+set(twist_cvt_node_SETUP_PY_MODULE_DIRS "")

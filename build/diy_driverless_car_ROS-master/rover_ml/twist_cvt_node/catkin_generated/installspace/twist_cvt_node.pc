@@ -1,0 +1,8 @@
+prefix=/home/prajval/end_to_end_learning/install
+
+Name: twist_cvt_node
+Description: Description of twist_cvt_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs rospy sensor_msgs

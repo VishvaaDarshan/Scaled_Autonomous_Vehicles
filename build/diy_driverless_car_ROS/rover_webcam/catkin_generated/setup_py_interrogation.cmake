@@ -1,0 +1,7 @@
+set(rover_webcam_SETUP_PY_SETUP_MODULE "distutils.core")
+set(rover_webcam_SETUP_PY_VERSION "0.0.0")
+set(rover_webcam_SETUP_PY_SCRIPTS "")
+set(rover_webcam_SETUP_PY_PACKAGES "openMV_cam")
+set(rover_webcam_SETUP_PY_PACKAGE_DIRS "src/openMV_cam")
+set(rover_webcam_SETUP_PY_MODULES "")
+set(rover_webcam_SETUP_PY_MODULE_DIRS "")

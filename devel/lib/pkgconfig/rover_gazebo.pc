@@ -1,0 +1,8 @@
+prefix=/home/prajval/end_to_end_learning/devel
+
+Name: rover_gazebo
+Description: Description of rover_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

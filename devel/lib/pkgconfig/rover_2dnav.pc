@@ -1,0 +1,8 @@
+prefix=/home/prajval/end_to_end_learning/devel
+
+Name: rover_2dnav
+Description: Description of rover_2dnav
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

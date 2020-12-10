@@ -1,0 +1,8 @@
+prefix=/home/prajval/end_to_end_learning/devel
+
+Name: rover_teleop
+Description: Description of rover_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs joy roscpp rospy sensor_msgs

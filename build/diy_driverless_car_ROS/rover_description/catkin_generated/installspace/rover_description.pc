@@ -1,0 +1,8 @@
+prefix=/home/prajval/end_to_end_learning/install
+
+Name: rover_description
+Description: Description of rover_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

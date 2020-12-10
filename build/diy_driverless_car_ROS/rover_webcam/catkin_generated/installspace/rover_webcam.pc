@@ -1,0 +1,8 @@
+prefix=/home/prajval/end_to_end_learning/install
+
+Name: rover_webcam
+Description: Description of rover_webcam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: camera_info_manager compressed_image_transport dynamic_reconfigure rospy sensor_msgs std_msgs std_srvs
