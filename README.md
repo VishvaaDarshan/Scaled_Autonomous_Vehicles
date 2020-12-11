@@ -1,11 +1,15 @@
 # Scaled Autonomy (AuE8930)
 This repository contains final project done in the course, AuE8930 - Scaled Autonomy during the Fall Semester 2020 at Clemson Univerity - International Center for Automotive Research.
 
+
+
+
+
 ## Team Members
-1. Prajval Vaskar
-2. Ajith Kumar Challa
-3. Shaurya Panthri
-4. Kexuan Zhai
+1. Prajval Vaskar pvaskar@g.clemson.edu
+2. Ajith Kumar Challa ajithc@g.clemson.edu
+3. Shaurya Panthri spanthr@clmeson.edu 
+4. Kexuan Zhai kzhai@clemson.edu
 
 ## Installation Steps and training procedure.
 
