@@ -94,7 +94,7 @@ Teleoperation
 
 3. Steering Prediction with uniform Velocity 
 
-![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/4.gif)
+![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/3.gif)
 
 4. Behavior cloning using Deep CNN (Steering and Speed Prediction)
 
