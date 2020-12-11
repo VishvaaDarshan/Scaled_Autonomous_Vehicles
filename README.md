@@ -26,3 +26,65 @@ In case of package dependency issue, use the following links to clone the requir
 1. [Yujin_ocs](https://github.com/yujinrobot/yujin_ocs/tree/devel/yocs_cmd_vel_mux)
 2. [ecl_exeptions](https://github.com/stonier/ecl_core/tree/devel/ecl_exceptions)
 3. [Yujin_msgs](https://github.com/yujinrobot/yocs_msgs)
+
+## Results:
+1. Interpretating the results of neural networks:
+Overfitting: 𝑉𝑎𝑙𝑖𝑑𝑎𝑡𝑖𝑜𝑛 𝑙𝑜𝑠𝑠≫𝑇𝑟𝑎𝑖𝑛𝑖𝑛𝑔 𝑙𝑜𝑠𝑠
+Underfitting: 𝑉𝑎𝑙𝑖𝑑𝑎𝑡𝑖𝑜𝑛 𝑙𝑜𝑠𝑠≪𝑇𝑟𝑎𝑖𝑛𝑖𝑛𝑔 𝑙𝑜𝑠𝑠
+
+2. Techniques to improve the accuracy of the model:
+
+Collecting more data for training: Collecting more data always does not yield better results if the images or not shuffled or balance in the data is not there.
+Solution – Add dropout layers and balance the dataset
+
+3. Splitting training data set and validation data set
+a. General split is 80:20
+b. If validation dataset is too less, overfitting is possible.
+c. Iterated with 75:25
+d. No performance difference is observed
+
+
+4. Using different activation functions
+a. Tanh: Tanh activation yielded only the extremes of steering values which are -0.45 and 0.45 in all cases.Due to the vanishing gradient problem when using tanh activation function, the initial layers might not learn anything when the backward pass happens which could be one of the reasons for the extreme values.
+
+b. ReLU activation function:
+Can be considered as Linear function Range – [0,inf) No saturation. There wouldn’t be vanishing gradient problem 
+
+5. Normalization of images, speed, and steering values:
+Allows the neural network is not biased towards activations which have higher values.
+Improved the rate of convergence of the loss function and thus reduces the number of epochs significantly
+
+
+6. Tuning hyperparameters
+a. Dropout Layers:
+-Overfitting because there are no dropout layers in the first plot.
+-𝑉𝑎𝑙𝑖𝑑𝑎𝑡𝑖𝑜𝑛 𝑙𝑜𝑠𝑠≫𝑇𝑟𝑎𝑖𝑛𝑖𝑛𝑔 𝑙𝑜𝑠𝑠
+Dropout layers of 0.3, 0.3, 0.2 and 0.2 made the model to fit just right.
+b.Batch size:
+-Number of training examples used in the estimate of the error gradient
+-Tried with batch sizes: 32 and 50 
+-No substantial difference in performance and loss
+c. Number of epochs
+- Significant effect on accuracy of the model
+- Directly proportional to accuracy
+- Accuracy gets saturate at a certain number of epochs
+d. Input normalization reduced the number of epochs needed by 50%
+e. Cropping the top half of the image reduced the time for each epoch by 25% which is from 120 seconds to 90 seconds on CPU.
+
+7. Normalization of images, speed, and steering values
+
+## Conclusion
+Using ReLU activation function 
+Normalization of the inputs reduced epoch numbers by 50%
+Training on more data always does not yield generalized output.
+Cropping the images which has unwanted data decreased the training duration by 40%.
+Data augmentation by flipping increased the data size and contributed for more generalization.
+
+## Future Scope
+1.The performance might be still improved using the following techniques:
+2. Weight regularization which reduces overfitting
+3. K-cross validation while training which improves generalization.
+4. Implementation of advanced neural networks which are GRU and LSTM and compare the performance of CNN and RNNs is also one future direction.
+
+5. Hardware Implementation
+
