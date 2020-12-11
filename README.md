@@ -85,6 +85,12 @@ Data augmentation by flipping increased the data size and contributed for more g
 2. Weight regularization which reduces overfitting
 3. K-cross validation while training which improves generalization.
 4. Implementation of advanced neural networks which are GRU and LSTM and compare the performance of CNN and RNNs is also one future direction.
-
 5. Hardware Implementation
+
+
+## Performace
+1. Initial Performance
+
+![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/1.gif)
+
 
