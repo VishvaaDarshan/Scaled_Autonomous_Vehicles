@@ -90,7 +90,7 @@ Teleoperation
 
 2. Training for features. Line Following
 
-![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/22.gif)
+![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/23.gif)
 
 3. Steering Prediction with uniform Velocity 
 
