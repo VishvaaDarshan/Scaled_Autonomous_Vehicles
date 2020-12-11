@@ -98,7 +98,7 @@ Teleoperation
 
 4. Behavior cloning using Deep CNN (Steering and Speed Prediction)
 
-![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/2.gif)
+![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/2.gif
 
 
 ## Conclusion
