@@ -77,20 +77,10 @@ e. Cropping the top half of the image reduced the time for each epoch by 25% whi
 
 7. Normalization of images, speed, and steering values
 
-## Conclusion
-Using ReLU activation function 
-Normalization of the inputs reduced epoch numbers by 50%
-Training on more data always does not yield generalized output.
-Cropping the images which has unwanted data decreased the training duration by 40%.
-Data augmentation by flipping increased the data size and contributed for more generalization.
+## Training and Data
+Teleoperation
 
-## Future Scope
-1.The performance might be still improved using the following techniques:
-2. Weight regularization which reduces overfitting
-3. K-cross validation while training which improves generalization.
-4. Implementation of advanced neural networks which are GRU and LSTM and compare the performance of CNN and RNNs is also one future direction.
-5. Hardware Implementation
-
+![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/5.gif)
 
 ## Performace
 1. Initial Performance
@@ -110,3 +100,17 @@ Data augmentation by flipping increased the data size and contributed for more g
 
 ![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/2.gif)
 
+
+## Conclusion
+Using ReLU activation function 
+Normalization of the inputs reduced epoch numbers by 50%
+Training on more data always does not yield generalized output.
+Cropping the images which has unwanted data decreased the training duration by 40%.
+Data augmentation by flipping increased the data size and contributed for more generalization.
+
+## Future Scope
+1.The performance might be still improved using the following techniques:
+2. Weight regularization which reduces overfitting
+3. K-cross validation while training which improves generalization.
+4. Implementation of advanced neural networks which are GRU and LSTM and compare the performance of CNN and RNNs is also one future direction.
+5. Hardware Implementation
