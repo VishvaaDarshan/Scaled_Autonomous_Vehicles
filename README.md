@@ -94,3 +94,6 @@ Data augmentation by flipping increased the data size and contributed for more g
 ![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/1.gif)
 
 
+2. Training for features. Line Following
+
+![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/3.gif)
