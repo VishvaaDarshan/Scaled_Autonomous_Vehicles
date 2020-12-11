@@ -100,3 +100,9 @@ Data augmentation by flipping increased the data size and contributed for more g
 
 3. Steering Prediction with uniform Velocity 
 
+![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/4.gif)
+
+4. Behavior cloning using Deep CNN (Steering and Speed Prediction)
+
+![_](https://github.com/Praj390/Scaled_Autonomous_Vehicles/blob/main/Images/2.gif)
+
